@@ -1,0 +1,92 @@
+body {
+    color: rgb(217, 136, 224);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(81, 52, 109);
+    height: 150px;
+    line-height: 150px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* id selector */
+#header-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+
+#header-nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+#header a:hover{
+color: black;
+cursor: pointer;
+}
+
+footer {
+    background-color: rgb(81, 52, 109);
+    position: absolute;
+    width: 100%;
+    font: bold 16px sans-serif;
+    /* font-wight */
+    padding: 55px 50px;
+}
+
+footer .footer-left {
+    width: 40%;
+}
+
+footer .footer-left, footer .footer-right {
+    display: inline-block;
+    vertical-align: center;
+}
+
+footer .footer-links {
+    color: rgb(217, 136, 224);
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+footer .footer-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer .footer-name {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+footer .footer-right {
+    width: 35px;
+}
+
+footer .footer-right p {
+    display: inline-block;
+    color: rgb(217, 136, 224);
+    vertical-align: middle;
+    margin: 0;
+}
